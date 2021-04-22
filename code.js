@@ -7,5 +7,6 @@ function notHelloWorld(){
     return "Let's hope this works";
 }
 
-console.log(
-)
+function sayHello(){
+    return "Hello";
+}
