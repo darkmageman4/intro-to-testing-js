@@ -8,5 +8,8 @@ function notHelloWorld(){
 }
 
 function sayHello(){
-    return "Hello";
-}
+   if input === "Alex" +
+       return "Hello, Alex"
+    else
+        return "Hello, Jane";
+};
