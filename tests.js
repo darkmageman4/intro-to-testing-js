@@ -38,3 +38,18 @@ describe("Hello, World!", function() {
         expect(sayHello("World")).toBe("Hello, World!")
     });
 })
+describe('isFive', function() {
+    it('should be a function isFive when executed', function () {
+        expect(isFive(5)).toBe(true)
+    });
+})
+describe('isEven', function() {
+    it('should be a function isEven when executed', function () {
+        expect(isEven(2)).toBe(true)
+    });
+})
+describe('isVowel', function() {
+    it('should be a function isVowel when executed', function () {
+        expect(isVowel("A")).toBe(true)
+    });
+})
